@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="demoblaze">
+
+
+<listeners>
+		<listener class-name="com.seleniumpracticeforms.Utilities.ExtentReportManager" />
+	</listeners>
+	
+		<test name="seleniumpracticeforms Test">
+		
+		<classes>
+			<class name="com.seleniumpracticeforms.testCases.TC_PracticeForms_001" />
+			
+			<class name="com.seleniumpracticeforms.testCases.TC_PracticeFormsDDT_002" />
+			
+				
+
+		</classes>
+
+	</test>
+
+</suite>
